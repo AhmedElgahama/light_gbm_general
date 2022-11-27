@@ -213,6 +213,7 @@ trainer <- function(schema_path, data_path)
   trained_model$variables_to_encode <- variables_to_encode
   trained_model$variables_numeric <- variables_numeric
   trained_model$encodings <- encodings
+  trained_model$mdl$save_model("/opt/ml_vol/model/artifacts/lgb_model")
   trained_model %>% write_rds('/opt/ml_vol/model/artifacts/model.rds')
 }
 
