@@ -1,0 +1,8 @@
+r-cran-plumber 
+r-cran-zeallot 
+r-cran-caret 
+r-cran-tidyverse 
+r-cran-rjson
+r-cran-httr
+r-cran-MASS
+r-cran-neuralnet 
