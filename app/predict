@@ -74,7 +74,7 @@ tester <- function(data_path)
   }
   
   
-  model <- lgb.load("/opt/ml_vol/model/artifacts/lgb_model")
+  model <- lgb.load("/opt/model_inputs_outputs/model/artifacts/lgb_model")
   
   ## Getting probability of each row for the target_class
   test_results <-
